@@ -52,17 +52,4 @@ def test_search_existing_movie(driver):
 #
 #    Проверка: assert "/film/" in driver.current_url
 
-# 3. test_filter_by_year_and_genre()
-#    Проверяет фильтрацию каталога по году и жанру.
-#
-#    Шаги:
-#      1. На главной странице найти выпадающие списки для года и жанра
-#         (локаторы уже есть в main_page: YEAR_SELECT, GENRE_SELECT)
-#      2. Выбрать год = 2023, жанр = "криминал"
-#      3. Применить фильтр (нажать кнопку "Показать")
-#      4. Проверить, что в результатах у первых 5 фильмов год = 2023 и жанр содержит "криминал"
-#
-#    Подсказка: используй Select из selenium.webdriver.support.ui
-#    Пример: Select(driver.find_element(By.NAME, "year")).select_by_visible_text("2023")
-
-# 
+# 3-4 чуть попоже пока придумаю;))
