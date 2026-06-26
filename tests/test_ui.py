@@ -65,13 +65,4 @@ def test_search_existing_movie(driver):
 #    Подсказка: используй Select из selenium.webdriver.support.ui
 #    Пример: Select(driver.find_element(By.NAME, "year")).select_by_visible_text("2023")
 
-# 4. test_switch_theme()
-#    Проверяет переключение между светлой и тёмной темой (если доступно).
-#
-#    Шаги:
-#      1. Найти переключатель темы (иконка луны/солнца) – возможно, в меню профиля
-#         или по data-tid (проверь на сайте)
-#      2. Кликнуть по нему
-#      3. Проверить, что у body появился класс "dark" или "theme-dark"
-#
-#    Проверка: assert "dark" in driver.find_element(By.TAG_NAME, "body").get_attribute("class")
+# 
