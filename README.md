@@ -1,0 +1,2 @@
+# kino_example
+Пример 
